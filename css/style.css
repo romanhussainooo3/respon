@@ -1,0 +1,907 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+font-size: 14px;
+font-family: sans-serif;
+line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: serif;
+}
+img{
+max-width: 100%;
+height: auto;
+}a{
+text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+}
+.containar{
+width: 1140px;
+margin: 0px  auto;
+}
+.row{
+width: 100%;
+float: left;
+}
+.col12{
+width: 100%;
+float: left;
+}
+.col6{
+width: 50%;
+float: left;
+}
+.col4{
+width: 33.33%;
+float: left;
+}
+.header {
+width: 100%;
+float: left;
+padding:10px 0px ;
+border-bottom: 1px solid #eee;
+
+
+}
+.header .menu{
+display: block;
+width: 100%;
+text-align: right;
+
+}
+.header .menu li {
+list-style: none;
+display: inline-block;
+
+
+}
+.header .menu li a{
+display: block;
+margin: 10px 0px 0px 20px;
+font-size: 14px;
+font-weight: 500;
+color: #0F2656;
+
+}
+.header .menu li a:hover{
+color: #008AFF;
+border-bottom: 1px solid #008AFF;
+}
+.banner{
+width: 100%;
+float: left;
+padding: 80px 0px;
+text-align: center;
+}
+.banner h1{
+margin-bottom: 10px;
+color: #0f2656;
+line-height: 1.2em;
+font-size: 54px;
+}
+.banner h1 span{
+color: #008AFF;
+}
+.banner p {
+margin-bottom: 10px;
+color: #0f2656;
+line-height: 1.7em;
+font-size: 14px;
+}
+
+.banner .banner-img{
+width: 55%;
+margin: 10px 0px 0px 0px;
+
+}
+.sucessfull{
+width:100% ;
+float: left;
+padding: 80px 0px;
+}
+.successfully-left {
+width: 100%;
+text-align: right;
+float: left;
+}
+.successfully-left h1{
+
+color: #F15767;
+line-height: 1.2em;
+font-size: 54px;
+margin: 0px 15px 10px 0px;
+}
+.successfully-left p{
+
+color: #0f2656;
+line-height: 1.7em;
+font-size: 14px;
+margin: 0px 15px 10px 0px;
+}
+.successfully-right{
+width: 100%;
+float: left;
+}
+.successfully-right h1{
+color: #0f2656;
+line-height: 1.2em;
+font-size: 54px;
+margin: 0px 0px 0px 15px;
+}
+.feature{
+width: 100%;
+float: left; 
+padding: 20px 0px 80px;
+
+}
+.inner-feature{
+width: 77%;
+float: left;
+padding: 60px 30px;
+margin: 0px 15px;
+
+}
+.inner-feature img{
+width:88% ;
+height: 170px;
+margin: 0px 0px 0px 10px;
+}
+.inner-feature h4{
+font-size: 25px ;
+line-height: 1.2em;
+color: #0f2656;
+margin: 0px 0px 10px;
+}
+.inner-feature p{
+font-size: 14px ;
+line-height: 1.7em;
+color: #0f2656;
+}
+.bg1{
+background: #FDEBED;
+}
+.bg2{
+background: #EBF9F4;
+}
+.bg3{
+background: #FFF7E8;
+}
+
+.footer{
+width: 100%;
+float: left;
+background: #008AFF;
+text-align: center;
+padding: 20px 0px;
+}
+.footer p{
+font-size: 14px;
+line-height: 1.7em;
+color: #85D2FF;
+}
+.footer a{
+text-decoration: none;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #fff;
+}
+@media (min-width:279px) and (max-width:319px){
+
+}
+/* Mobile Device */
+@media (min-width:320px) and (max-width:480px){
+.containar{
+    width: 90%;
+    margin: 0px  auto;
+}
+.row{
+width: 100%;
+float: left;
+}
+.col12{
+    width: 100%;
+    float: left;
+}
+.col6{
+    width: 100%;
+    float: left;
+}
+.col4{
+    width: 100%;
+    float: left;
+}
+.logo{
+    display: block;
+    text-align: center;
+}
+.header .menu li a{
+    margin: 10px 0px 0px 9px;
+}
+.banner {
+    padding: 30px 0px;
+}
+.banner h1 {
+   font-size: 27px;
+}
+.banner p {
+   font-size: 12px;
+}
+.successfully-left h1 {
+  
+    font-size: 35px;
+    text-align: center;
+}
+.successfully-left p {
+  
+    font-size: 12px;
+    
+    text-align: center;
+}
+.successfully-right h1 {
+    
+
+    font-size: 27px;
+    
+    text-align: center;
+}
+.feature {
+    width: 97%;
+    padding: 20px 0px 30px;
+   
+}
+.inner-feature {
+    padding: 50px 30px;
+    margin: 0px 15px 15px;
+}
+.inner-feature h4 {
+    font-size: 18px; 
+}
+.inner-feature p {
+    font-size: 11px;
+ 
+
+}
+.footer p {
+    font-size: 10px;
+}
+}
+/* Mobile Device */
+
+/* Tab Mode */
+@media (min-width:481px) and (max-width:767px){
+.containar{
+    width: 90%;
+    margin: 0px  auto;
+}
+.row{
+width: 100%;
+float: left;
+}
+.col12{
+    width: 100%;
+    float: left;
+}
+.col6{
+    width: 100%;
+    float: left;
+}
+.col4{
+    width: 100%;
+    float: left;
+}
+.logo{
+    display: block;
+    text-align: center;
+}
+.header .menu {
+    display: block;
+   text-align: center;
+}
+.header .menu li a{
+    margin: 10px 0px 0px 20px;
+}
+.banner {
+    padding: 30px 0px;
+}
+.banner .banner-img {
+    width: 60%;
+}
+
+.banner h1 {
+   font-size: 35px;
+}
+.banner p {
+    font-size: 14px;
+}
+.successfully-left h1 {
+  
+ 
+font-size: 45px;
+text-align: center;
+}
+.successfully-left p {
+  
+    font-size: 14px;
+    
+    text-align: center;
+}
+.successfully-right h1 {
+    
+
+    font-size: 40px;
+    
+    text-align: center;
+}
+.feature {
+    width: 97%;
+    padding: 20px 0px 30px;
+   
+}
+.inner-feature {
+    padding: 60px 30px;
+    margin: 0px 15px 15px;
+    width: 88%;
+}
+.inner-feature h4 {
+    font-size: 27px; 
+}
+.inner-feature p {
+    font-size: 18px;
+ 
+
+}
+.footer p {
+    font-size: 14px;
+}
+}
+/* *{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col6{
+    width: 50%;
+    float: left;
+}
+.headder{
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #d5cece;
+    padding: 20px 0px;
+}
+.logo img{
+    width: 22%;
+}
+.headder .menu{
+    display: block;
+    list-style: none;
+    text-align: right;
+}
+.headder .menu li{
+    display: block;
+    display: inline-block;
+    margin: 15px;
+} 
+.menu li a{
+    font-size: 22px;
+}
+.menu li a:hover{
+    
+    border-bottom: 2px solid rgb(50, 127, 235);
+    color: rgb(39, 102, 227);
+}
+.focus{
+    width: 100%;
+    float: left;
+}
+.col12{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.col12 h1{
+    font-size: 60px;
+    line-height: 1.2em;
+    font-weight: 600;
+    margin: 40px 0px 0px 0px;
+}
+.col12 h1 span{
+    color: rgb(75, 125, 234);
+}
+.col12 p{
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+.col12 img{
+    width: 70%;
+    padding: 40px 0px 0px 40px;
+}
+.login{
+    width: 100%;
+    float: left;
+    margin: 40px 0px 0px 0px;
+}
+.col6{
+    width: 50%;
+    float: left;
+}
+.form{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.form h1{
+    width: 100%;
+    font-size: 60px;
+    line-height: 1.2em;
+    color: rgb(210, 72, 54);
+}
+.form p{
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    line-height: 1.4em;
+}
+.formin{
+    width: 100%;
+    float: left;
+}
+.formin h1{
+    width: 100%;
+    font-size: 60px;
+    line-height: 1.2em;
+    margin: 0px 20px;
+}
+.banner{
+    width: 100%;
+    float: left;
+    margin: 40px  0px 80px;
+}
+.col4{
+    width: 33.33%;
+    float: left;
+}
+.formbox {
+    width: 92%;
+    padding: 30px 0px 60px;
+}
+.formbox img{
+    width: 95%;
+    height: 180px;
+    margin: 0px;
+}
+.formbox h4 {
+    font-size: 27px;
+    line-height: 1.2em;
+    color: #0f2656;
+    margin: 20px 0px 10px 51px;
+}
+.formbox p{
+    font-size: 18px;
+    line-height: 1.4em;
+    color: #0f2656;
+    margin: 10px 0px 10px 51px;
+}
+.bg1{
+    background: #fdebed;
+}
+.bg2{
+    background: #ebf9f4;
+
+}
+.bg3{
+    background: #fff7e8;
+}
+.fotter{
+    width: 100%;
+    float: left;
+    background-color: rgb(72, 142, 223);
+    padding: 30px 0px;
+}
+.fotter p{
+    font-size: 20px;
+    color: rgb(123, 190, 235);
+    text-align: center;
+}
+.fotter a{
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: white;
+} 
+@media (Min-width:279px) and (max-width:319px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col12{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+    }
+    .logo img {
+        display: block;
+        width: 33%;
+        text-align: center;
+        margin: auto;
+    }
+    .headder .menu li{
+        margin: 3px;
+    }
+    .menu li a{
+        font-size: 13px;
+    }
+    .col12 h1{
+        font-size: 28px;
+        margin: 10px 0px;
+    }
+    .col12 p{
+        font-size: 12px;
+    }
+    .col12 img{
+        margin: -30px;
+        text-align: center;
+    }
+    .form h1{
+        font-size: 28px;
+        display: block;
+        text-align: center;
+    }
+    .form p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .formin h1{
+        font-size: 27px;
+        text-align: center;
+    }
+    .banner{
+        width: 120%;
+        margin: 40px  0px 10px;
+    }
+    .formbox{
+        margin: 0px 0px 20px 0px;
+        padding: 0px 0px 23px;
+    }
+    .formbox img {
+        width: 82%;
+        padding: 0px 29px 0px;
+    }
+    .formbox h4 {
+        font-size: 18px;
+        margin: 0px 25px;
+        text-align: left;
+    }
+    .formbox p {
+        font-size: 11px;
+        margin: 0px 25px;
+    }
+    .fotter{
+        padding: 1%;
+    }
+    .fotter p{
+        font-size: 11px;
+    }
+    .fotter a{
+        font-size: 15px;
+    }
+}
+
+@media (Min-width:320px) and (max-width:480px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col12{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+    }
+    .logo img {
+        display: block;
+        width: 33%;
+        text-align: center;
+        margin: auto;
+    }
+    .headder{
+        margin: 10px 0px 0px 0px;
+    }
+    .headder .menu li{
+        margin: 6px;
+    }
+    .menu li a{
+        font-size: 13px;
+    }
+    .col12 h1{
+        font-size: 32px;
+        margin: 10px 0px;
+    }
+    .col12 p{
+        font-size: 13px;
+    }
+    .col12 img{
+        margin: -30px;
+        text-align: center;
+    }
+    .form h1{
+        font-size: 32px;
+        display: block;
+        text-align: center;
+    }
+    .form p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .formin h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    .banner{
+        width: 120%;
+        margin: 40px  0px 36px;
+    }
+    .formbox{
+        margin: 0px 0px 20px 0px;
+        padding: 0px 0px 23px;
+    }
+    .formbox img {
+        width: 82%;
+        padding: 0px 29px 0px;
+    }
+    .formbox h4 {
+        font-size: 21px;
+        margin: 0px 25px;
+        text-align: left;
+    }
+    .formbox p{
+        font-size: 12px;
+        margin: 0px 25px;
+    }
+    .fotter{
+        padding: 1%;
+    }
+    .fotter p{
+        font-size: 15px;
+    }
+    .fotter a{
+        font-size: 17px;
+    }
+
+}
+@media (Min-width:481px) and (max-width:767px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col12{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+    }
+    .logo img {
+        display: block;
+        width: 33%;
+        text-align: center;
+        margin: auto;
+    }
+    .headder .menu{
+        display: block;
+        text-align: center;
+    }
+    .headder .menu li{
+        margin: 6px;
+    }
+    .menu li a{
+        font-size: 15px;
+    }
+    .col12 h1{
+        font-size: 40px;
+        margin: 10px 0px;
+    }
+    .col12 p{
+        font-size: 15px;
+    }
+    .col12 img{
+        margin: -30px;
+        text-align: center;
+    }
+    .form h1{
+        font-size: 40px;
+        display: block;
+        text-align: center;
+    }
+    .form p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .formin h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .banner{
+        margin: 20px 50px;
+    }
+    .formbox {
+        width: 70%;
+        margin: 15px;
+        padding: 23px 0px 24px;
+    }
+    .formbox img {
+        width: 72%;
+        padding: 0px 29px 0px;
+    }
+    .formbox h4 {
+        font-size: 21px;
+        margin: 0px 25px;
+        text-align: left;
+    }
+    .formbox p{
+        font-size: 13px;
+        margin: 0px 25px;
+    }
+    .fotter{
+        padding: 1%;
+    }
+    .fotter p{
+        font-size: 15px;
+    }
+    .fotter a{
+        font-size: 17px;
+    }
+
+}
+@media (Min-width:768px) and (max-width:1024px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col12{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+    }
+    .logo img {
+        display: block;
+        width: 22%;
+        text-align: center;
+        margin: auto;
+    }
+    .headder .menu{
+        display: block;
+        text-align: center;
+    }
+    .headder .menu li{
+        margin: 10px;
+    }
+    .menu li a{
+        font-size: 17px;
+    }
+    .col12 h1{
+        font-size: 45px;
+        margin: 10px 0px;
+    }
+    .col12 p{
+        font-size: 16px;
+    }
+    .col12 img{
+        margin: -30px;
+        text-align: center;
+    }
+    .form h1{
+        font-size: 45px;
+        display: block;
+        text-align: center;
+    }
+    .form p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .formin h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    .banner{
+        margin: 20px 95px;
+    }
+    .formbox {
+        width: 53%;
+        margin: 15px 75px;
+        padding: 34px 0px 41px;
+    }
+    .formbox img {
+        width: 72%;
+        padding: 0px 29px 0px;
+    }
+    .formbox h4 {
+        font-size: 21px;
+        margin: 0px 25px;
+        text-align: left;
+    }
+    .formbox p{
+        font-size: 13px;
+        margin: 3px 25px;
+    }
+    .fotter{
+        padding: 1%;
+    }
+    .fotter p{
+        font-size: 15px;
+    }
+    .fotter a{
+        font-size: 17px;
+    }
+} */
